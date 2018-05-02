@@ -22,8 +22,8 @@ The following 2 softwares will need to be installed on your computer prior to th
 1. Start a new project directory
 
 ```
-$ mkdir Blockchainclub
-$ cd Blockchainclub
+$ mkdir GCBC
+$ cd GCBC
 ```
 
 2. Download geth v1.8.3 and save it in the above created directory.
