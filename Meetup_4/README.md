@@ -10,7 +10,7 @@ It leverages tools such as
  - Geth for interacting with the ethereum network 
  - Remix for writing and publishing smart contracts (http://remix.ethereum.org)
  - Gnosis Multisig wallet contracts & dapp for examples (https://github.com/gnosis/MultiSigWallet)
- - Toshi for interacting with the dapp (Download in App Store or Google Play)
+ - Toshi and Trust for interacting with the dapp (Download in App Store or Google Play)
  
 The following 2 softwares will need to be installed on your computer prior to the hackathon.
 
