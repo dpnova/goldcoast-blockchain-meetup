@@ -32,7 +32,7 @@ You will have a local Ethereum blockchain running and 10 accounts loaded with 10
 
 2.3. Paste the private key you pasted from step 2.1. Click Import.
 
-2.4. You should now see Account 1 (or something similar like Account 4 depending how many accounts you already have in MetaMask). To make things easier later edit the name and call it Ganache - 1.
+2.4. You should now see Account 1 (or something similar like Account 4 depending how many accounts you already have in MetaMask). To make things easier later edit the name and call it *Ganache 1*.
 
 2.5. Now do the same for the second account in your Ganache instance.
 
@@ -45,28 +45,43 @@ You will have a local Ethereum blockchain running and 10 accounts loaded with 10
 
 ![metamask_pointed_at_ganache](images/metamask_pointed_at_ganache.png)
 
-3.3. Click on the folder symbol and then open all the contracts under the contracts folder for this Meetup (Meetup_5).
+3.3. Ensure the account *Ganache 1* is selected.
+
+3.4. Click on the folder symbol and then open all the contracts under the contracts folder for this Meetup (Meetup_5).
 
 ![remix_init](images/remix_init.png)
 
-3.4. Click on the Start to Compile button while MultiSigFactory is selected. You should see a bunch of output below. These are just warnings - unless they are red. The contract has still be compiled.
+3.5. Click on the Start to Compile button while MultiSigFactory is selected. You should see a bunch of output below. These are just warnings - unless they are red. The contract has still be compiled.
 
 ![remix_compile_multisigfactory](images/remix_compile_multisigfactory.png)
 
-3.5. On the Run tab click the Deploy button while MultiSigFactory is selected. This will trigger a confirmation in MetaMask, indicated by the small 1 that shows on the MetaMask icon.
+3.6. On the Run tab click the Deploy button while MultiSigFactory is selected. This will trigger a confirmation in MetaMask, indicated by the small 1 that shows on the MetaMask icon.
 
 ![remix_deploy_multisigfactory](images/remix_deploy_multisigfactory.png)
 
-3.6. Click on the MetaMask icon and submit the transaction to deploy the contract.
+3.7. Click on the MetaMask icon and submit the transaction to deploy the contract.
 
 ![remix_metamask_submit](images/remix_metamask_submit.png)
 
-3.7. Once the transaction is mined, you should now have a deployed MultiSigFactory contact. It will be visible from Remix under Deployed Contracts.
+3.8. Once the transaction is mined, you should now have a deployed MultiSigFactory contact. It will be visible from Remix under Deployed Contracts.
 
 ![remix_deployed_multisigfactory](images/remix_deployed_multisigfactory.png)
 
-3.8. Create MultiSigWallet from deployed MultiSigWalletFactory contract.
+3.9. Create MultiSigWallet from deployed MultiSigWalletFactory contract.
 
+For the _owners field use your *Ganache 1* account. 
+ 
+![remix_multisigfactory_create](images/remix_multisigfactory_create.png)
+
+Then click Transact. Then submit transaction using MetaMask.
+
+3.10 Click on the Down arrow symbol in the debug output in Remix.
+
+![remix_debug_closed](images/remix_debug_closed.png)
+
+3.11 Get address of the MutiSigWallet created.
+
+![remix_debug_opened](images/remix_debug_opened.png)
 
 # Deploy ERC20 Contract
 
