@@ -159,5 +159,28 @@ If all went well you should see a newly deployed token contract under Deployed C
 
 ![gnosis_token_withdraw_3](images/gnosis_token_withdraw_3.png)
 
+# 8. Add Owner and increase required signatures to 2.
+
+8.1. Add another owner, your Ganache 2 account, using the Gnosis Wallet UI.
+
+![gnosis_add_owner](images/gnosis_add_owner.png)
+
+8.2. Increase the required count from 1 to 2.
+
+![gnosis_increase_required](images/gnosis_increase_required.png)
+
+8.3. Now try and withdraw tokens and see what happens. Ah now we need the second account's permission for the transaciton to be executed.
+
+![gnosis_transaction_pending](images/gnosis_transaction_pending.png)
+
+8.4. Switch in MetaMask to the second account you added as owner to the multisig wallet. Then you will be able to Confirm the withdraw transaction.
+
+![gnosis_transaction_confirm](images/gnosis_transaction_confirm.png)
+
+8.5. After going through confirm process with the second Ganache account the Wallet UI will refresh.
+
+![gnosis_transaction_confirmed](images/gnosis_transaction_confirmed.png)
+
+# 9. MutliSig Transactions
 
 
