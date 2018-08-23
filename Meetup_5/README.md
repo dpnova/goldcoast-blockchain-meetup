@@ -37,7 +37,7 @@ You will have a local Ethereum blockchain running and 10 accounts loaded with 10
 2.5. Now do the same for the second account in your Ganache instance.
 
 
-# 3. Deploy MultiSig Wallet Contract
+# 3. Deploy MultiSig Wallet With DailyLimit Factory Contract
 
 3.1. In your browser go to https://remix.ethereum.org
 
@@ -51,11 +51,11 @@ You will have a local Ethereum blockchain running and 10 accounts loaded with 10
 
 ![remix_init](images/remix_init.png)
 
-3.5. Click on the Start to Compile button while MultiSigFactory is selected. You should see a bunch of output below. These are just warnings - unless they are red. The contract has still be compiled.
+3.5. Click on the Start to Compile button while MultiSigWalletWithDailyLimitFactory is selected. You should see a bunch of output below. These are just warnings - unless they are red. The contract has still be compiled.
 
 ![remix_compile_multisigfactory](images/remix_compile_multisigfactory.png)
 
-3.6. On the Run tab click the Deploy button while MultiSigFactory is selected. This will trigger a confirmation in MetaMask, indicated by the small 1 that shows on the MetaMask icon.
+3.6. On the Run tab click the Deploy button while MultiSigWalletWithDailyLimitFactory is selected. This will trigger a confirmation in MetaMask, indicated by the small 1 that shows on the MetaMask icon.
 
 ![remix_deploy_multisigfactory](images/remix_deploy_multisigfactory.png)
 
@@ -63,25 +63,19 @@ You will have a local Ethereum blockchain running and 10 accounts loaded with 10
 
 ![remix_metamask_submit](images/remix_metamask_submit.png)
 
-3.8. Once the transaction is mined, you should now have a deployed MultiSigFactory contact. It will be visible from Remix under Deployed Contracts.
+3.8. Once the transaction is mined, you should now have a deployed MultiSigWalletWithDailyLimitFactory contact. It will be visible from Remix under Deployed Contracts.
+
+Copy the address of this contact by clicking the copy symbol beside the deployed contract details.
 
 ![remix_deployed_multisigfactory](images/remix_deployed_multisigfactory.png)
 
-3.9. Create MultiSigWallet from deployed MultiSigWalletFactory contract.
 
-For the _owners field use your *Ganache 1* account. 
- 
-![remix_multisigfactory_create](images/remix_multisigfactory_create.png)
+# 4. Create MultiSig Wallet
 
-Then click Transact. Then submit transaction using MetaMask.
+4.1. Go to https://wallet.gnosis.pm. 
 
-3.10 Click on the Down arrow symbol in the debug output in Remix.
+4.2. Go to Settings. 
 
-![remix_debug_closed](images/remix_debug_closed.png)
-
-3.11 Get address of the MutiSigWallet created.
-
-![remix_debug_opened](images/remix_debug_opened.png)
 
 # Deploy ERC20 Contract
 
