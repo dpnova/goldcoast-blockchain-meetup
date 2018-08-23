@@ -109,7 +109,35 @@ If all went well you should see a newly deployed token contract under Deployed C
 
 ![remix_deployed_token](images/remix_deployed_token.png)
  
-# Transfer Tokens to MultiSig Wallet
+# 6. Transfer Tokens to MultiSig Wallet
 
-# Withdraw Tokens from MultiSig Wallet
+6.1. From Remix, under *Deployed Contracts*, open the AbcToken contract by clicking the > icon.
+
+6.2. Open the transfer method by clicking the down arrow icon.
+
+6.3. Now transfer the tokens to your multisig wallet.
+
+- In the address field enter the address of your multisig wallet. You can copy this from the Gnosis UI.
+- In the required field enter 1.
+
+![remix_transfer_tokens](images/remix_transfer_tokens.png)
+ 
+- Click *Transact*.
+- Go into MetaMask and submit the transaction.
+
+6.4. Go to the Gnosis Dapp and click the name of your wallet.
+
+- The click the *Add* button in the Tokens section.
+- Copy and paste the address of your deployed token contract. It should then autofill the rest of the fields.
+
+![gnosis_add_token](images/gnosis_add_token.png)
+ 
+- Click OK.
+- You should now see the ABC tokens for this multisig wallet and the balance of the account, Ganache 1, currently connected in MetaMask.
+
+![gnosis_abc_tokens](images/gnosis_abc_tokens.png)
+
+
+# 7. Withdraw Tokens from MultiSig Wallet
+
 
