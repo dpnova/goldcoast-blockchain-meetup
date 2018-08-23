@@ -181,6 +181,24 @@ If all went well you should see a newly deployed token contract under Deployed C
 
 ![gnosis_transaction_confirmed](images/gnosis_transaction_confirmed.png)
 
-# 9. MutliSig Transactions
+# 9. MultiSig Transactions
+
+9.1. Gnosis gives an easy flow to withdraw tokens. You can however do it another way which demonstrates the ability to have *any* transaction executed with required number of approvals.
+ 
+9.2. Click the *Add* button for MultiSig Transactions in the Wallet UI.
+
+- Enter the Token Address
+- Copy the ABI from Remix
+- Select Transfer method
+- Put the address of your 2nd Ganache Account in the *to* field
+- Enter 5 for the tokens.
+
+![gnosis_multisig_token_transfer](images/gnosis_multisig_token_transfer.png)
+
+9.3. After going through the confirmation process you should see the something like the following.
+
+![gnosis_multisig_token_transfer_done](images/gnosis_multisig_token_transfer_done.png)
+
+
 
 
