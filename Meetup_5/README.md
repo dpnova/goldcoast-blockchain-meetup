@@ -183,7 +183,7 @@ If all went well you should see a newly deployed token contract under Deployed C
 
 # 9. MultiSig Transactions
 
-9.1. Gnosis gives an easy flow to withdraw tokens. You can however do it another way which demonstrates the ability to have *any* transaction executed with required number of approvals.
+9.1. Gnosis gives an easy flow to withdraw tokens. You can however do it another way which demonstrates the ability to have *any* transaction executed after it has the required number of approvals.
  
 9.2. Click the *Add* button for MultiSig Transactions in the Wallet UI.
 
