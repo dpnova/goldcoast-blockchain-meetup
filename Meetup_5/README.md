@@ -45,7 +45,7 @@ You will have a local Ethereum blockchain running and 10 accounts loaded with 10
 
 3.1. In your browser go to https://remix.ethereum.org
 
-3.2. Ensure the account *Ganache 1* is selected.
+3.2. Ensure the account *Ganache 1* is selected in Metamask.
 
 3.3. Click on the folder symbol and then open all the contracts under the contracts folder for this Meetup (Meetup_5).
 
@@ -111,9 +111,9 @@ If all went well you should see a newly deployed token contract under Deployed C
  
 # 6. Transfer Tokens to MultiSig Wallet
 
-6.1. From Remix, under *Deployed Contracts*, open the AbcToken contract by clicking the > icon.
+6.1. From Remix, under *Deployed Contracts*, expand the AbcToken contract by clicking the > icon.
 
-6.2. Open the transfer method by clicking the down arrow icon.
+6.2. Expand the transfer function by clicking the down arrow icon.
 
 6.3. Now transfer the tokens to your multisig wallet.
 
