@@ -96,8 +96,18 @@ If all went well you should see your new wallet.
 ![gnosis_wallet_created](images/gnosis_wallet_created.png)
 
 
-# Deploy ERC20 Contract
+# 5. Deploy ERC20 Contract
 
+5.1. From Remix open the AbcToken.sol contract and click *Start to compile*.
+
+5.2. Once compiled successfully go to the Run tab. 
+ - Ensure AbcToken is selected from the drop down.
+ - Click Deploy.
+ - Go into MetaMask and submit the transaction.
+
+If all went well you should see a newly deployed token contract under Deployed Contracts.
+
+![remix_deployed_token](images/remix_deployed_token.png)
  
 # Transfer Tokens to MultiSig Wallet
 
