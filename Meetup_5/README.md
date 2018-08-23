@@ -137,7 +137,27 @@ If all went well you should see a newly deployed token contract under Deployed C
 
 ![gnosis_abc_tokens](images/gnosis_abc_tokens.png)
 
+6.5. Alternatively to deposit tokens you could have clicked the Deposit button for the token in the Gnosis Wallet UI which calls the same method - transfer - that we called from Remix.
 
 # 7. Withdraw Tokens from MultiSig Wallet
+
+7.1. Click the Withdraw button for the ABC Token in the Gnosis Wallet UI.
+
+![gnosis_abc_tokens_withdraw](images/gnosis_abc_tokens_withdraw.png)
+
+7.2. Enter your amount and click *Send multisig transaction*.
+
+![gnosis_token_withdraw_1](images/gnosis_token_withdraw_1.png)
+
+7.3. Then click *Send transaction*
+
+![gnosis_token_withdraw_2](images/gnosis_token_withdraw_2.png)
+
+7.4. Then from MetaMask submit the transaction.
+
+7.5. You should then see the transaction was executed from the Gnosis MultiSig Wallet UI.
+
+![gnosis_token_withdraw_3](images/gnosis_token_withdraw_3.png)
+
 
 
