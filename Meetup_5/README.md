@@ -74,7 +74,26 @@ Copy the address of this contact by clicking the copy symbol beside the deployed
 
 4.1. Go to https://wallet.gnosis.pm. 
 
-4.2. Go to Settings. 
+4.2. Go to Settings. Ensure that:
+ - *Ethereum node* is set to your local Ganache instance: http://localhost:7545
+ - *Wallet factory contract* is set to the address of the wallet factory you deployed previously.
+
+![gnosis_settings](images/gnosis_settings.png)
+
+4.3. Click Update Settings.
+
+4.4. Click on Wallets. 
+ - Click Add.
+ - Leave *Create new wallet* selected.
+ - Click *Next*.
+ - Enter a name for your new wallet.
+ - Click *Deploy with factory*
+ - Click *Send Transaction*
+ - Then go into MetaMask and submit the transaction.
+
+If all went well you should see your new wallet.
+
+![gnosis_wallet_created](images/gnosis_wallet_created.png)
 
 
 # Deploy ERC20 Contract
