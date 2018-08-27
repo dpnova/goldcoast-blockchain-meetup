@@ -1,6 +1,6 @@
 # Introduction
 
-We are going to build on the last meetup and interact with our Gnosis MultiSig Wallet.
+We are going to build on the last meetup and interact with our Gnosis MultiSig Wallet. (Here is a link to the last sessions notes: https://github.com/dpnova/goldcoast-blockchain-meetup/tree/master/Meetup_4)
 
 We will be deploying an ERC20 Token contract and then transferring tokens to/from our MulitSig Wallet.
 
