@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <title>Meetup</title>
+    <script language="javascript" type="text/javascript" src="js/web3.js-0.20.6/web3.min.js"></script>
+
+    <script language="javascript" type="text/javascript" src="multisigwallet.abi.js"></script>
+</head>
+<body>
+
+<h2>Yo Yo - Here we go....</h2>
+
+
+<div id="result"></div>
+
+
+<script>
+
+    function startApp() {
+        console.log("starting app...");
+
+        const multiSigWalletAddress = '<paste-here>';
+
+        const multiSigWalletContract = web3js.eth.contract(multiSigWalletAbi);
+        const instance = multiSigWalletContract.at(multiSigWalletAddress);
+
+        console.log(instance);
+
+        instance.getOwners(
+                function(error, result) {
+                    if (!error) {
+                        console.log('no error');
+                        console.log(result);
+                        $("#result").empty();
+                        $("#result").append(result);
+                    }
+                });
+    }
+
+
+    window.addEventListener('load', function() {
+        console.log("load event.....");
+        //web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7545"));
+        // Checking if Web3 has been injected by the browser (Mist/MetaMask)
+        if (typeof web3 !== 'undefined') {
+            console.log("web3 defined");
+            // Use Mist/MetaMask's provider
+            web3js = new Web3(web3.currentProvider);
+        } else {
+            // Handle the case where the user doesn't have Metamask installed
+            // Probably show them a message prompting them to install Metamask
+        }
+        // Now you can start your app & access web3 freely:
+        startApp()
+    })
+
+</script>
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
