@@ -16,7 +16,7 @@ What are some non-fungible things:
 4) Trading Cards??
 
 
-## Are physical trading cards non-fungible
+## Are physical trading cards non-fungible?
 
 I think they are. Here's why?
 
@@ -27,7 +27,7 @@ I think they are. Here's why?
 3. But pyhsically they are distinct and non interchangeable. What happens if I bend my card? It would no longer be exactly the same as another Gold Snorlax card.
 
 
-## Are digital trading cards non-fungible
+## Are digital trading cards non-fungible?
 
 Not really since the physical characteristics are not relevant.
 
