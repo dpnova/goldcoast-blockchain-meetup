@@ -43,7 +43,7 @@ But regardless of whether they are or not I have still managed to shoe horn them
 
 2. Make sure you have an account selected with some Test ETH
 
-3. Go to lunacards.co
+3. Go to http://lunacards.co (Look mum no SSL!!)
 
 4. Click 'Buy Random Card'.
 
