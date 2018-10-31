@@ -64,6 +64,7 @@ But regardless of whether they are or not I have still managed to shoe horn them
 
 4. CardSet is deployed at 0xf9faa12be3787e4336f8d3018141f6b89a59b38d. CardShop is deployed at 0x980b064ef60e93a8f714caa25de182d9c43d4869.
 
+![](images/cardset_layout.png)
 
 ## Future ideas
 
