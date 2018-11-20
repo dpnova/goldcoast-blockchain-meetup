@@ -22,7 +22,7 @@
     function startApp() {
         console.log("starting app...");
 
-        const multiSigWalletAddress = '<paste-here>';
+        const multiSigWalletAddress = '0x5cb85db3e237cac78cbb3fd63e84488cac5bd3dd';
 
         const multiSigWalletContract = web3js.eth.contract(multiSigWalletAbi);
         const instance = multiSigWalletContract.at(multiSigWalletAddress);
