@@ -4,7 +4,7 @@ We are going to build on the last meetup and interact with our Gnosis MultiSig W
 
 We will be deploying an ERC20 Token contract and then transferring tokens to/from our MulitSig Wallet.
 
-We will be starting fresh in this meetup. You don't need to have done the last one.
+We will be starting fresh in this meetup. You don't need to have done the last one. But just incase you want to check it out, here it is: https://github.com/dpnova/goldcoast-blockchain-meetup/tree/master/Meetup_4
 
 ## Prerequisites
 
@@ -198,6 +198,7 @@ If all went well you should see a newly deployed token contract under Deployed C
 9.3. After going through the confirmation process you should see the something like the following.
 
 ![gnosis_multisig_token_transfer_done](images/gnosis_multisig_token_transfer_done.png)
+
 
 
 
