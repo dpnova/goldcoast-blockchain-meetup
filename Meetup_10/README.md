@@ -11,3 +11,4 @@ Topics:
 * open financial network
 * security / equity / asset backed
 * ravencoin
+* saft
