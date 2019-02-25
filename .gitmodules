@@ -1,0 +1,3 @@
+[submodule "EDC/ethereumbook"]
+	path = EDC/ethereumbook
+	url = https://github.com/ethereumbook/ethereumbook.git
