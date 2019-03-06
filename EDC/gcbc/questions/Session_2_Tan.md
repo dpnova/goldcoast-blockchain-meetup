@@ -1,5 +1,5 @@
 
-Q. What does a dApp consist of at minimum
+Q. What does a dApp consist of at minimum (Select 2)
 
 A. Smart contracts on a blockchain
 B. Web frontend user interface
