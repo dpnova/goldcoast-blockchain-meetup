@@ -227,7 +227,7 @@ If all goes well, you should see something like:
 
 ++++
 <pre data-type="programlisting">
-$ <strong>cargo install</strong>
+$ <strong>cargo +nightly install</strong>
     Updating git repository `https://github.com/paritytech/js-precompiled.git`
  Downloading log v0.3.7
  Downloading isatty v0.1.1
@@ -297,7 +297,7 @@ To make a local clone of your chosen repository, use the +git+ command as follow
 
 ++++
 <pre data-type="programlisting">
-$ <strong>git clone &lt;Repository Link&gt;</strong>
+$ <strong>git clone https://github.com/ethereum/go-ethereum.git</strong>
 </pre>
 ++++
 
@@ -403,6 +403,11 @@ Geth can only operate fast synchronization when starting with an empty block dat
 ====
 Syncing the Ethereum blockchain will take anywhere from half a day on a very fast system with lots of RAM, to several days on a slower system.
 ====
+
+To run geth in private mode without syncing to any networks use the following command.
+```
+./geth --dev --datadir=$HOME/.ethereum/private  --rpcapi "personal,web3,eth,net,db,debug" --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" console
+```
 
 [[json_rpc]]
 ==== The JSON-RPC Interface
