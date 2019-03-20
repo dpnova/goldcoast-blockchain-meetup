@@ -1,16 +1,16 @@
 Q. Trapdoor functions are difficult to invert without secret information that can be used as a shortcut to reverse the function. <br/>
-A. True  <br/>
+A. True * <br/>
 B. False <br/>
  <br/>
 Q. What is discreet logarithm problem <br/>
-A. Division is simple but prime is impossible <br/>
-B. Prime is simple but division is impossible  <br/>
-C. Multiplication is simple but division is impossible <br/>
+A. Division is simple but Multiplication modulo a prime is impossible <br/>
+B. Multiplication modulo a prime is simple but division is impossible * <br/>
+C. Subtraction is simple but addition is impossible <br/>
 D. Division and Multiplication are impossible  <br/>
  <br/>
 Q. Creating an ethereum private key essentially involves picking a number between <br/>
 A. 64 digit number between 0 - 2^256 <br/>
-B. 78 digit number between 1 & 2^256 <br/>
+B. 78 digit number between 1 & 2^256 * <br/>
 C. 64 digit number between 1 & 10^76 <br/>
 D. 78 digit number between 1 & 10^78 <br/>
  <br/>
