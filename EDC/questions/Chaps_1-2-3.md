@@ -41,3 +41,18 @@ Q. If you want a contract to recieve ether without calling a function do you nee
 <br/>
 A. True * <br/>
 B. False <br/>
+<br/>
+Q. 0.1 ETH equals how many WEI?<br/> 
+A.       100,000,000,000,000,000 * <br/>
+B.     1,000,000,000,000,000,000<br/>
+C. 1,000,000,000,000,000,000,000<br/>
+<br/>
+Q. 1 GWEI equals how many ETH?<br/>
+A. 0.000000001 * <br/>
+B. 0.1<br/>
+C. 0.000001<br/>
+<br/>
+Q. Transaction fee of 0.00054188 had gas units of 108376. What was gas price for transaction?<br/>
+A. 4 GWEI<br/>
+B. 5 GWEI * <br/>
+C. 2.1 GWEI<br/>
