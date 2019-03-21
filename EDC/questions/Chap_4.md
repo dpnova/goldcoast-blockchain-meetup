@@ -49,3 +49,35 @@ A. 20 * <br/>
 B. 24 <br/>
 C. 28 <br/>
 D. 32 <br/>
+<br/>
+Q. Tyes of Ethereum accounts:<br/>
+A. Externally Owned Account (EOA) * <br/>
+B. Contract * <br/>
+C. Node validator Account<br/>
+D. Transaction Gas Storage Account<br/>
+<br/>
+Q. You can change the private key for your ethereum address?<br/>
+A. True<br/>
+B. False * <br/>
+<br/>
+Q. You need to be running a full node or connected to a full node to generate an ethereum private key?<br/>
+A. True<br/>
+B. False * <br/>
+<br/>
+Q. How many bits is an ethereum private key?<br/>
+A. 64<br/>
+B. 256 * <br/>
+C. 512<br/>
+D. 1024<br/>
+<br/>
+Q. Ethereum uses which hash library?<br/>
+A. FIPS-202 SHA-3<br/>
+B. Keccak-256<br/>
+<br/>
+Q. Ethereum addresses have built in checksum just like Bitcoin?<br/>
+A. False * <br/>
+B. True<br/>
+<br/>
+Q. Which address uses EIP-55?<br/>
+A. 0x001d3f1ef827552ae1114027bd3ecf1f086ba0f9<br/>
+B. 0x001d3F1ef827552Ae1114027BD3ECF1f086bA0F9 * <br/>
