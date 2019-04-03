@@ -11,7 +11,7 @@ D. A JSON encoded file<br/>
 Q. Match the Standard to the appropriate Description<br/>
 A. Mnemonic Code words - BIP 44<br/>
 B. HD Wallets - BIP 39<br/>
-C. Multipurpose HD Wallet Structructure - BIP 44<br/>
+C. Multipurpose HD Wallet Structure - BIP 43<br/>
 D. Multicurrency and Multiaccount Wallets - BIP 32<br/>
 <br/>
 Q. Hardended Derivation function uses ___________ to derive child chain code.<br/>
