@@ -9,7 +9,6 @@ C. A Base32 encoded file<br/>
 D. A JSON encoded file<br/>
 <br/>
 Q. Match the Standard to the appropriate Description<br/>
-<br/>
 A. Mnemonic Code words - BIP 44<br/>
 B. HD Wallets - BIP 39<br/>
 C. Multipurpose HD Wallet Structructure - BIP 44<br/>
@@ -22,7 +21,6 @@ C. Child Public Key<br/>
 D. Child Private Key<br/>
 <br/>
 Q. As per the BIP-44 standard , m/44'/60'/1'/0'/2 refers to<br/>
-<br/>
 A. Third receving public key for the primary ethereum account<br/>
 B. Third signing private key for the second ethereum account<br/>
 C. Third receving public key for the second ethereum account<br/>
