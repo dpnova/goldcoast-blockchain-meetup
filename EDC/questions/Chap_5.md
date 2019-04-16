@@ -25,3 +25,27 @@ A. Third receving public key for the primary ethereum account<br/>
 B. Third signing private key for the second ethereum account *<br/>
 C. Third receving public key for the second ethereum account<br/>
 D. Second signing private key for the third ethereum account<br/>
+<br/>
+Q. It is better to use a brainwallet instead of mnemonic seed prhase? <br/>
+A. True<br/>
+B. False *<br/>
+<br/>
+Q. Which description fits best with each BIP?<br/>
+A. BIP-39 Mnemonic, BIP-32 hierarchical deterministic *
+B. BIP-32 Mnemonic, BIP-39 hierarchical deterministic
+C. BIP-39 Passphrase, BIP-32 highly deterministic
+<br/>
+Q. BIP-39 requires mandatory pass phrase to be used with mnemonic words?</br>
+A. True<br/>
+B. False *<br/>
+<br/>
+Q. The Trezor hardware wallet has a function allowing you to export your wallet files for backup<br/>
+A. True<br/>
+B. False *<br/>
+<br/>
+Q5. BIP-44 path definition is:<br/>
+A. m / purpose' / coin_type' / account' / change / address_index *<br/>
+B. m / purpose' / coin_type' / account' / change<br/>
+C. m / purpose' / coin_type' / chain' / account' / change / address_index<br/>
+D. m / purpose' / coin_type' / chain' / account' / <br/>
+<br/>
