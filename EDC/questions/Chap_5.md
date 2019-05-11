@@ -51,18 +51,18 @@ D. m / purpose' / coin_type' / chain' / account' / <br/>
 <br/>
 Q. A wallet is NOT:<br/>
 A. a software application<br/>
-B. a smart contract<br/>
+B. a smart contract *<br/>
 C. a tool to control access to creating and signing transactions<br/>
 D. a tool to store users’ keys<br/>
 <br/>
 Q.A key derivation function is NOT (pick 2):<br/>
 A. a password stretching algorithm<br/>
 B. applying the hash to the private key 262,144 times<br/>
-C. part of the non deterministic wallet functionality<br/>
-D. generating a master key<br/>
+C. part of the non deterministic wallet functionality * <br/>
+D. generating a master key *<br/>
 <br/>
 Which ones are true:<br/>
 A. HD wallets should only be used for testing<br/>
-B. Deterministic wallets are only protected by one seed<br/>
+B. Deterministic wallets are only protected by one seed *<br/>
 C. Non deterministic wallets derive many keys form a single seed.<br/>
-D. HD wallets can be used on an insecure server<br/>
+D. HD wallets can be used on an insecure server * <br/>
