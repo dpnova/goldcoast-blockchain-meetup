@@ -1,4 +1,4 @@
-Installing Vyper
+## Installing Vyper
 
 - Ensure you have python3.6 installed
 - Install vyper in a virtualenv
