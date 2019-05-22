@@ -36,10 +36,3 @@ A. Present Ether<br/>
 B. Reentry<br/>
 C. Entropy Illusion<br/>
 B. Self destruct / Suicide<br/>
-
-
-
-1 - A
-2 - A
-3 - B
-4 - A, D
