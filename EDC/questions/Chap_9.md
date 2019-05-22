@@ -35,4 +35,4 @@ Q. Ether can be forcibly sent to a contract using what method(s)?<br/>
 A. Present Ether<br/>
 B. Reentry<br/>
 C. Entropy Illusion<br/>
-B. Self destruct / Suicide<br/>
+D. Self destruct / Suicide<br/>

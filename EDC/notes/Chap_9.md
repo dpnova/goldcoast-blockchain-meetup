@@ -82,22 +82,39 @@ One method is to place an upper bound on the gasPrice.
 
 Denial of Service (DoS)
 -----------------------
+- Looping through externally manipulated mappings or arrays
+- Owner operations
+- Progressing state based on external calls
 
+Prevent - 
+- contracts should not loop through data structures that can be artificially manipulated by external users.
+- make the owner a multisig contract or use time lock
+- 
 
 Block Timestamp Manipulation
 ----------------------------
+block.timestamp and its alias now can be manipulated by miners.
 
+prevent - Block timestamps should not be used for entropy or generating random numbers.
 
 Constructors with Care
 ----------------------
+contract name is modified, or there is a typo in the constructor’s name such that it does not match the name of the contract, the constructor will behave like a normal function.
+
+prevent - This issue has been addressed in version 0.4.22 of the Solidity compiler. This version introduced a constructor keyword that specifies the constructor, rather than requiring the name of the function to match the contract name.
 
 Uninitialized Storage Pointers
 ------------------------------
+The EVM stores data either as storage or as memory.
+if complex variable like struct is not initialised it can point to storage by default.
 
+prevent - The Solidity compiler shows a warning for unintialized storage variables; developers should pay careful attention to these warnings when building smart contracts.
 
 Floating Point and Precision
 ----------------------------
+As of this writing (v0.4.24), Solidity does not support fixed-point and floating-point numbers.
 
+Developers roll their own methods.
 
 Tx.Origin Authentication
 ------------------------
