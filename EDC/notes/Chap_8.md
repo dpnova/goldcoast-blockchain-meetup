@@ -33,3 +33,16 @@ Doubts:
 better understand - Preconditions and Postconditions
 no inheritance - really? this will lead to bunch of tooling on top of vyper to reduce DRY. this could undo some of the safety of vyper.
 
+## Installing Vyper
+
+- Ensure you have python3.6 installed
+- Install vyper in a virtualenv
+
+```
+mkvirtualenv -p `which python3.6` vyper
+workon vyper
+git clone https://github.com/ethereum/vyper.git
+cd vyper
+make
+make test
+```
