@@ -9,12 +9,13 @@ Q. Which of the following are intrinsic tokens?<br>
 A - crypto kitty<br/>
 B - DAI<br/>
 C - Gold Backed Token</br>
-
+<br/>
 Q. What is the correct list of required functions for ERC20 contract?<br/>
-A - totalSupply, balanceOf, transfer, approve, allowance, symbol
-B - totalSupply, balanceOf, transfer, transferFrom, approve, symbol
-C - totalSupply, balanceOf, transfer, transferFrom, approve, allowance
-D - totalSupply, balanceOf, transfer, transferFrom, approve, spendBalance
+A - totalSupply, balanceOf, transfer, approve, allowance, symbol<br/>
+B - totalSupply, balanceOf, transfer, transferFrom, approve, symbol<br/>
+C - totalSupply, balanceOf, transfer, transferFrom, approve, allowance<br/>
+D - totalSupply, balanceOf, transfer, transferFrom, approve, spendBalance<br/>
+<br/>
 
 
 
