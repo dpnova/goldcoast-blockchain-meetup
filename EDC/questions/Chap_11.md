@@ -1,0 +1,19 @@
+Q. What is the most simple type of oracle that provides data?<br/>
+A. request–response<br/>
+B. publish-subscribe<br/>
+C. immediate-read<br/>
+<br/>
+Q. For request-response oracle how can you be sure the data has not been tampered with<br/>
+A. HTTPS<br/>
+B. authenticity proof<br/>
+C. SSL Cert<br/>
+<br/>
+Q. Computation oracles are a centralized method to get around Ethereum's comparatively expensive computation costs.<br/>
+A. True<br/>
+B. False<br/>
+
+
+
+1 - C
+2 - B
+3 - B (TrueBit is a decentralised computation oracle method. reaches a final round, where the challenge is sufficiently trivial such that the judges—Ethereum miners—can make a final ruling on whether the challenge was met, on-chain.)
