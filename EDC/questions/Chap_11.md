@@ -12,8 +12,3 @@ Q. Computation oracles are a centralized method to get around Ethereum's compara
 A. True<br/>
 B. False<br/>
 
-
-
-1 - C
-2 - B
-3 - B (TrueBit is a decentralised computation oracle method. reaches a final round, where the challenge is sufficiently trivial such that the judges—Ethereum miners—can make a final ruling on whether the challenge was met, on-chain.)

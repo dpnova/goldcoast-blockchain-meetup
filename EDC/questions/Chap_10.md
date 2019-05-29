@@ -18,9 +18,5 @@ D - totalSupply, balanceOf, transfer, transferFrom, approve, spendBalance
 
 
 
-1 - A
-2 - A, B
-3 - C
-
 
 
