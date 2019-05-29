@@ -17,3 +17,14 @@ A. balanceOf()<br>
 B. transfer()<br>
 C. allowance()<br>
 D. totalsupply()<br>
+<br>
+ERC20 standard requires the following variable<br>
+<code>mapping (address => mapping (address => uint256)) public allowed;</code> <br>
+A. True<br>
+B. False<br>
+<br>
+ERC721 is the standard for the following type of tokens<br>
+A. Non-Fungible<br>
+B. Equity<br>
+C. Utility<br>
+D. Deed tokens<br>
