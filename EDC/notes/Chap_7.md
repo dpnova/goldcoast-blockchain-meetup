@@ -52,3 +52,11 @@ gas cost estimation = 0.000062794 ether
 ```
 
 
+truffle develop
+compile
+migrate
+Faucet.deployed().then(i => {FaucetDeployed = i})
+FaucetDeployed.send(web3.utils.toWei("1", "ether")).then(res => { console.log(res.logs[0].event, res.logs[0].args) })
+FaucetDeployed.withdraw(web3.utils.toWei("0.1", "ether")).then(res => { console.log(res.logs[0].event, res.logs[0].args) })
+
+
